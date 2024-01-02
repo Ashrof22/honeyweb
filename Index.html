@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+        <a href="../index.html" class="logo"><i class='bx bxs-home'></i>ElSa3ed</a>
+        <ul class="navlist">
+            <li><a href="../index.html" class="active">Home</a></li>
+            <li><a href="../index.html">About Us</a></li>
+            <li><a href="../index.html">Our Shop</a></li>
+            <li><a href="../index.html">Our Customer</a></li>
+            <li><a href="contact us/Index.html">Contact Us</a></li>
+        </ul>
+        <div class="nav-icons">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a class="carticons" href="#"><i class='bx bx-cart' ></i></a>
+            <span class="quantity">0</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+	<section>
+		<div class="container">
+			<form action="https://formspree.io/f/xbjnjgpo" method="POST" accept-charset="UTF-8">
+				<div class="form-group">
+					<label for="firstName"> Frist Name</label>
+					<input type="text" id="firstName" name="firstName">
+				</div>
+				<div class="form-group">
+					<label for="lastName"> Last Name</label>
+					<input type="text" id="lastName" name="lastName">
+				</div>
+				<div class="form-group">
+					<label for="email"> Email</label>
+					<input type="email" id="email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="message"> Message</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</section>
+
+	<div class="card">
+        <h1>Card</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+	<script src="script.js"></script>
+</body>
+</html>
